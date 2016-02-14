@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Highscore tracker</string>
+    <string name="game_selector_label">Select a game</string>
+    <string name="robinson_crusoe">Robinson Crusoe</string>
+</resources>
