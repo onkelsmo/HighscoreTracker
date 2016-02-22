@@ -39,7 +39,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/new_score"
+        android:id="@+id/new_score_button"
         android:layout_marginTop="30dp"
         android:layout_below="@+id/game_selector"
         android:text="@string/new_score"
