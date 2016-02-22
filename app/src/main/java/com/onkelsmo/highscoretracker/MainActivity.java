@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 android.R.layout.simple_spinner_item,
                 // TODO: 14.02.2016 get games from database
                 new String[] {
+                        getString(R.string.generic_game),
                         getString(R.string.robinson_crusoe),
                 }
         );
