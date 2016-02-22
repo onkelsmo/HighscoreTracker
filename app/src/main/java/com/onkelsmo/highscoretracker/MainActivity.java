@@ -38,10 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // TODO: 22.02.2016 the new activity has to be specific by the chosen game... how do we solve this?
             if (selectedGame == R.string.generic_game) {
                 Intent intent = new Intent(this, GenericGameActivity.class);
+                startActivity(intent);
             }
-
-
-
         }
     }
 }
