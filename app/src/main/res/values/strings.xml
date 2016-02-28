@@ -4,4 +4,8 @@
     <string name="robinson_crusoe">Robinson Crusoe</string>
     <string name="generic_game">Generic</string>
     <string name="new_score">New Score</string>
+    <string name="game_title_label">Game title?</string>
+    <string name="game_style_label">Cooperative?</string>
+    <string name="coop_yes">Yes</string>
+    <string name="coop_no">No</string>
 </resources>
