@@ -8,4 +8,9 @@
     <string name="game_style_label">Cooperative?</string>
     <string name="coop_yes">Yes</string>
     <string name="coop_no">No</string>
+    <string name="players">Players:</string>
+    <string name="add_new_input">Add new input</string>
+    <string name="player_score_label">Score:</string>
+    <string name="save">Save</string>
+    <string name="additional_info_label">Additional info:</string>
 </resources>
