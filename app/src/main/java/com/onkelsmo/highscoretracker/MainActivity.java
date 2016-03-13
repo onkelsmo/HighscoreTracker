@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        // TODO: 13.03.2016 refactor to switch case?
         if (v.getId() == R.id.new_score_button) {
             String selectedGame = (String)gameSelector.getSelectedItem();
             // TODO: 22.02.2016 the new activity has to be specific by the chosen game... how do we solve this?

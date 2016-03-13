@@ -76,78 +76,18 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp" />
 
-    <LinearLayout
-        android:orientation="vertical"
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/player_list_view"
+        android:layout_weight="1" />
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/players_list">
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/player_input"
-            android:weightSum="1">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1: "
-                android:id="@+id/player_number"
-                android:paddingTop="10dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp" />
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/player_name"
-                android:inputType="text"
-                android:layout_weight="0.90" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/player_score_label"
-                android:id="@+id/player_score_label"
-                android:paddingTop="10dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp" />
-
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/player_score"
-                android:inputType="number"
-                android:layout_weight="0.10" />
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/add_new_input"
-                android:contentDescription="@string/add_new_input"
-                android:src="@android:drawable/ic_input_add"
-                android:adjustViewBounds="false" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/save_button_container">
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/save"
-            android:id="@+id/save_button"
-            android:layout_gravity="center_horizontal"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="false"
-            android:layout_centerHorizontal="true"
-            android:layout_margin="10dp" />
-    </RelativeLayout>
+        android:text="@string/save"
+        android:id="@+id/save_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" />
 
 </LinearLayout>
